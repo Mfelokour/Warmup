@@ -2,6 +2,10 @@
 // string string exactly n times.
 // repeatStr("hello",4) ==> 'hellohellohellohello'
 	
-	function repeatStr (n, s) {
-		//your code is here
+	function repeatStr (string,number) {
+		var str = "";
+		for (var i = 0 ; i < number ; i++){
+			str += string
+		}
+		return str;
 	}
